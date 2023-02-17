@@ -1,0 +1,137 @@
+body {
+    max-width: 1400px;
+    max-width: 600px;
+    background: linear-gradient(0.25turn, #8fbfd4, #ebf8e1, #80e98e);
+}
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+}
+
+#navbar {
+    display: flex;
+}
+
+.nav {
+    list-style: none;
+    padding: 1rem;
+    padding-left: 4rem;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    padding-right: 2rem;
+}
+
+.nav:hover {
+    color: #51c4cc;
+    cursor: pointer;
+}
+/* page */
+.container {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    left: 45px;
+}
+
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 25rem;
+    font-size: 4rem;
+    width: 400px;
+    color: rgb(167, 247, 148);
+
+}
+
+.docs {
+    width: 550px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border: 2px inset rgb(123, 255, 47);
+    border-radius: 5px;
+}
+
+.docs img {
+    padding: 1rem;
+}
+
+.docs p {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+#sub {
+    display: flex;
+}
+
+
+/* Footer */
+footer {
+    background: linear-gradient(45deg, #6262b6, #bd6262);
+    padding: 50px 0;
+    font-size: 14px;
+    color: #000000;
+    width: 1350px;
+    margin-top: 1rem;
+}
+
+footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+footer p {
+    line-height: 1.5;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #555;
+}
+
+footer a:hover {
+    color: #337ab7;
+}
+
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: #fff;
+}
+
+.social-icons a:hover {
+    background-color: #337ab7;
+}
